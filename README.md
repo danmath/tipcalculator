@@ -15,4 +15,8 @@ Completed:
 
 ![Video Walkthrough](tips/tipsdemo.gif)
 
-Note: to embed the gif file, just check your gif file into your repo and update the name of the file above.
+Notes:
+Was unsuccessful in getting the app to update after resuming it when it was already running.
+Used the notfication center update method:
+NSNotificationCenter.defaultCenter().addObserver(self, selector: "onEditingChanged:", name: UIApplicationDidBecomeActiveNotification, object: nil)
+to no avail.
