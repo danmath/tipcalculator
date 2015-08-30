@@ -13,7 +13,10 @@ Completed:
 * [x] Optional: Using locale-specific currency and currency thousands separators.
 * [x] Optional: Making sure the keyboard is always visible and the bill amount is always the first responder. This way the user doesn't have to tap anywhere to use this app. Just launch the app and start typing.
 
+Walkthrough of all user stories:
 ![Video Walkthrough](tips/tipsdemo.gif)
+
+GIF created with [LiceCap](http://www.cockos.com/licecap/).
 
 Notes:
 Was unsuccessful in getting the app to update after resuming it when it was already running.
