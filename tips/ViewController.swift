@@ -27,6 +27,12 @@ class ViewController: UIViewController {
     override func viewDidLoad() {
         super.viewDidLoad()
         reloadSettings()
+        //fix placement for wider iPhone 6
+        self.billField.frame.size.width = self.view.frame.size.width-32
+        self.tipControl.frame.size.width = self.view.frame.size.width-32
+        self.tipLabel.frame.size.width = self.view.frame.size.width-58
+        self.totalLabel.frame.size.width = self.view.frame.size.width-58
+
         tipLabel.text = self.symbol! + "0.00"
         totalLabel.text = self.symbol! + "0.00"
         let defaults = NSUserDefaults.standardUserDefaults()
