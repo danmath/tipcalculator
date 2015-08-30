@@ -23,8 +23,8 @@
                     <color key="textColor" cocoaTouchSystemColor="darkTextColor"/>
                     <nil key="highlightedColor"/>
                 </label>
-                <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" misplaced="YES" image="tipsicon.png" translatesAutoresizingMaskIntoConstraints="NO" id="ai9-16-83q">
-                    <rect key="frame" x="90" y="90" width="300" height="300"/>
+                <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="tipsicon.png" translatesAutoresizingMaskIntoConstraints="NO" id="ai9-16-83q">
+                    <rect key="frame" x="90" y="81" width="300" height="300"/>
                     <constraints>
                         <constraint firstAttribute="width" constant="300" id="0ui-yH-gGE"/>
                         <constraint firstAttribute="height" constant="300" id="uPy-yt-GUA"/>
