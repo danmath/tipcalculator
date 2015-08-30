@@ -8,6 +8,7 @@
 
 /* Begin PBXBuildFile section */
 		AF5216051B9167B100C44725 /* tipsicon.png in Resources */ = {isa = PBXBuildFile; fileRef = AF5216041B9167B100C44725 /* tipsicon.png */; };
+		AF5216071B92890000C44725 /* tipsdemo.gif in Resources */ = {isa = PBXBuildFile; fileRef = AF5216061B92890000C44725 /* tipsdemo.gif */; };
 		AFA18E4D1B77BBBC009138B4 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = AFA18E4C1B77BBBC009138B4 /* AppDelegate.swift */; };
 		AFA18E4F1B77BBBC009138B4 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = AFA18E4E1B77BBBC009138B4 /* ViewController.swift */; };
 		AFA18E521B77BBBC009138B4 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = AFA18E501B77BBBC009138B4 /* Main.storyboard */; };
@@ -29,6 +30,7 @@
 
 /* Begin PBXFileReference section */
 		AF5216041B9167B100C44725 /* tipsicon.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = tipsicon.png; sourceTree = "<group>"; };
+		AF5216061B92890000C44725 /* tipsdemo.gif */ = {isa = PBXFileReference; lastKnownFileType = image.gif; path = tipsdemo.gif; sourceTree = "<group>"; };
 		AFA18E471B77BBBC009138B4 /* tips.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = tips.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		AFA18E4B1B77BBBC009138B4 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		AFA18E4C1B77BBBC009138B4 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
@@ -81,6 +83,7 @@
 		AFA18E491B77BBBC009138B4 /* tips */ = {
 			isa = PBXGroup;
 			children = (
+				AF5216061B92890000C44725 /* tipsdemo.gif */,
 				AF5216041B9167B100C44725 /* tipsicon.png */,
 				AFA18E4C1B77BBBC009138B4 /* AppDelegate.swift */,
 				AFA18E4E1B77BBBC009138B4 /* ViewController.swift */,
@@ -202,6 +205,7 @@
 				AFA18E521B77BBBC009138B4 /* Main.storyboard in Resources */,
 				AFA18E571B77BBBC009138B4 /* LaunchScreen.xib in Resources */,
 				AFA18E541B77BBBC009138B4 /* Images.xcassets in Resources */,
+				AF5216071B92890000C44725 /* tipsdemo.gif in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
